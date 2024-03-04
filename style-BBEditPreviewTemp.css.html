@@ -1,0 +1,711 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>style.css</title>
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255)">
+<pre><code>
+<span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;em&nbsp;measurements
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(234, 51, 35);">html</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">16</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;global&nbsp;styles&nbsp;to&nbsp;reset&nbsp;default&nbsp;values
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+*,
+*</span><span style="color: rgb(234, 51, 35);">:before</span><span style="color: rgb(0, 0, 0);">,
+*</span><span style="color: rgb(234, 51, 35);">:after</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">box-sizing</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">border-box</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(234, 51, 35);">body</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">ul</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">li</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">img</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">video</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">figcaption</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">main</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">footer</span><span style="color: rgb(0, 0, 0);">,&nbsp;
+</span><span style="color: rgb(234, 51, 35);">h1</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">border</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(234, 51, 35);">body</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">background</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 153, 153);">#f2f2f2</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 153, 153);">#333</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Fonts
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(234, 51, 35);">body</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-family</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">Arial</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">sans-serif</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(234, 51, 35);">h1</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-family</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">Arial</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">sans-serif</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-weight</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">bold</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Keeps&nbsp;text&nbsp;bold&nbsp;for&nbsp;headings&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-family</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">Arial</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">sans-serif</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(234, 51, 35);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-family</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">Arial</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">sans-serif</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-style</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">italic</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Keeps&nbsp;italic&nbsp;style&nbsp;for&nbsp;figcaptions&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;top&nbsp;navigation&nbsp;section
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+</span><span style="color: rgb(234, 51, 35);">body</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(234, 51, 35);">container</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">flex</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">justify-content</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">center</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Center&nbsp;the&nbsp;container&nbsp;horizontally&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background-color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transparent</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;background&nbsp;color&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">5</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Add&nbsp;padding&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">flex</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Use&nbsp;flexbox&nbsp;to&nbsp;align&nbsp;items&nbsp;horizontally&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">justify-content</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">space-between</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Spread&nbsp;items&nbsp;evenly&nbsp;across&nbsp;the&nbsp;container&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">align-items</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">center</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Align&nbsp;items&nbsp;vertically&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">80</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;the&nbsp;width&nbsp;of&nbsp;the&nbsp;navigation&nbsp;bar&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h1</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-left</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">20</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Pushes&nbsp;the&nbsp;"Finn&nbsp;Brooks"&nbsp;to&nbsp;the&nbsp;right&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h1</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">black</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;color&nbsp;to&nbsp;black&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Remove&nbsp;underline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">ul</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">ul</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">li</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">inline-block</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Display&nbsp;list&nbsp;items&nbsp;inline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">ul</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">li</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">inline-block</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 153, 153);">#000</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">14</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">16</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background-color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transparent</span><span style="color: rgb(0, 0, 0);">;
+}
+
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Remove&nbsp;underline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;main&nbsp;page&nbsp;title&nbsp;after&nbsp;top&nbsp;navigation
+nav&nbsp;+&nbsp;h2&nbsp;selects&nbsp;first&nbsp;&lt;h2&gt;&nbsp;after&nbsp;&lt;nav&gt;
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(234, 51, 35);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;+&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">line-height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2.15</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Your&nbsp;existing&nbsp;CSS&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+</span><span style="color: rgb(234, 51, 35);">.heading-container</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-left</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">50</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;as&nbsp;needed&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Add&nbsp;this&nbsp;CSS&nbsp;to&nbsp;style&nbsp;the&nbsp;border-bottom&nbsp;for&nbsp;the&nbsp;"Work"&nbsp;heading&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(234, 51, 35);">.heading-container</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">line-height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2.15</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;top&nbsp;and&nbsp;bottom&nbsp;margin&nbsp;as&nbsp;needed&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-align</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">left</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">position</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">relative</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Add&nbsp;relative&nbsp;positioning&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Add&nbsp;this&nbsp;CSS&nbsp;to&nbsp;style&nbsp;the&nbsp;thin&nbsp;line&nbsp;under&nbsp;the&nbsp;"Work"&nbsp;heading&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(234, 51, 35);">.heading-container</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">::</span><span style="color: rgb(4, 0, 204);">after</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">content</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(255, 51, 149);">''</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Add&nbsp;pseudo-element&nbsp;for&nbsp;the&nbsp;line&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">position</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">absolute</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Position&nbsp;it&nbsp;absolutely&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">left</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Align&nbsp;it&nbsp;with&nbsp;the&nbsp;left&nbsp;edge&nbsp;of&nbsp;the&nbsp;"Work"&nbsp;heading&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">-15</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;as&nbsp;needed&nbsp;to&nbsp;position&nbsp;the&nbsp;line&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">200</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;the&nbsp;width&nbsp;of&nbsp;the&nbsp;line&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;the&nbsp;thickness&nbsp;of&nbsp;the&nbsp;line&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background-color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 153, 153);">#b3b3b3</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Adjust&nbsp;the&nbsp;color&nbsp;of&nbsp;the&nbsp;line&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;hero&nbsp;image
+.container&nbsp;&gt;&nbsp;figure&nbsp;selects&nbsp;all&nbsp;&lt;figure&gt;&nbsp;where&nbsp;parent&nbsp;is&nbsp;.container
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">.container</span><span style="color: rgb(0, 0, 0);">&nbsp;&gt;&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;main&nbsp;content:&nbsp;note&nbsp;padding&nbsp;on&nbsp;section
+---------------------------------------------------------------------------------------&nbsp;
+section&nbsp;{&nbsp;margin:0;&nbsp;padding:&nbsp;0&nbsp;.5rem&nbsp;1.5rem;&nbsp;}
+
+section&nbsp;h3,&nbsp;section&nbsp;div&nbsp;h3&nbsp;{&nbsp;font-size:&nbsp;1.5rem;&nbsp;line-height:&nbsp;2.25rem;&nbsp;}
+
+section&nbsp;figure&nbsp;{&nbsp;margin-bottom:&nbsp;1rem;&nbsp;}
+
+section&nbsp;figcaption&nbsp;{&nbsp;font-size:&nbsp;1rem;&nbsp;}
+
+section&nbsp;div&nbsp;{&nbsp;margin-top:&nbsp;-0.375rem;&nbsp;}&nbsp;&nbsp;/*&nbsp;to&nbsp;adjust&nbsp;type&nbsp;against&nbsp;images&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;default&nbsp;paragraph&nbsp;styling
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">max-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">36</span><span style="color: rgb(0, 0, 0);">em</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">max-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">42</span><span style="color: rgb(0, 0, 0);">em</span><span style="color: rgb(0, 0, 0);">;&nbsp;}&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;max-width&nbsp;sets&nbsp;line&nbsp;length&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">line-height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.375</span><span style="color: rgb(0, 0, 0);">em</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;p&nbsp;{&nbsp;line-height:&nbsp;2.0625rem;&nbsp;}&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;media&nbsp;defaults&nbsp;to&nbsp;force&nbsp;image&nbsp;&amp;&nbsp;video&nbsp;width&nbsp;to&nbsp;parent&nbsp;element&nbsp;width
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">100</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(0, 0, 0);">video</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">100</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(0, 0, 0);">.max</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">max-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">100</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;&nbsp;}&nbsp;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;max-width&nbsp;can&nbsp;stop&nbsp;img&nbsp;element&nbsp;going&nbsp;bigger&nbsp;than&nbsp;its&nbsp;actual&nbsp;size&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;link&nbsp;styling
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(84, 84, 84);">/*
+a:hover&nbsp;{&nbsp;
+&nbsp;&nbsp;color:&nbsp;black;&nbsp;
+&nbsp;&nbsp;text-decoration:&nbsp;none;
+&nbsp;&nbsp;&nbsp;&nbsp;
+}
+
+nav&nbsp;a:hover&nbsp;{
+&nbsp;&nbsp;background-color:&nbsp;#f1f1f1;
+&nbsp;&nbsp;color:&nbsp;black;
+&nbsp;&nbsp;
+}
+
+nav&nbsp;h1&nbsp;a&nbsp;{
+&nbsp;&nbsp;color:&nbsp;black;&nbsp;
+&nbsp;&nbsp;text-decoration:&nbsp;none;
+}
+
+nav&nbsp;ul&nbsp;li:nth-child(1)&nbsp;a&nbsp;{
+&nbsp;&nbsp;color:&nbsp;black;
+&nbsp;&nbsp;text-decoration:&nbsp;none;
+}
+
+.contact&nbsp;p&nbsp;{&nbsp;font-size:&nbsp;3rem;&nbsp;text-align:&nbsp;center;&nbsp;}
+
+*/</span><span style="color: rgb(0, 0, 0);">
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Styling&nbsp;for&nbsp;the&nbsp;"Finn&nbsp;Brooks"&nbsp;link&nbsp;in&nbsp;the&nbsp;navigation&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h1</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">,
+</span><span style="color: rgb(0, 0, 0);">nav</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">ul</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">li</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">black</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;color&nbsp;to&nbsp;black&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Remove&nbsp;underline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Styling&nbsp;for&nbsp;the&nbsp;project&nbsp;titles&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">,
+</span><span style="color: rgb(0, 0, 0);">.slides</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">.slide</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">black</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;color&nbsp;to&nbsp;black&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Remove&nbsp;underline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Styling&nbsp;for&nbsp;the&nbsp;project&nbsp;titles&nbsp;on&nbsp;hover&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">:hover</span><span style="color: rgb(0, 0, 0);">,
+</span><span style="color: rgb(0, 0, 0);">.slides</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">.slide</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">:hover</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">black</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Set&nbsp;color&nbsp;to&nbsp;black&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;Remove&nbsp;underline&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+}
+
+</span><span style="color: rgb(0, 0, 0);">.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">black</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-decoration</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">none</span><span style="color: rgb(0, 0, 0);">;
+}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;
+IMPORTANT:&nbsp;media&nbsp;query&nbsp;-&nbsp;switches&nbsp;on&nbsp;grid&nbsp;layout&nbsp;if&nbsp;page&nbsp;width&nbsp;is&nbsp;wider&nbsp;than&nbsp;768px
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(4, 0, 204);">@media</span><span style="color: rgb(0, 0, 0);">&nbsp;(</span><span style="color: rgb(0, 0, 0);">min-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">768</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">)&nbsp;{
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;IMPORTANT:&nbsp;min-width:60em&nbsp;rule&nbsp;will&nbsp;stop&nbsp;the&nbsp;container&nbsp;from&nbsp;resizing&nbsp;&nbsp;
+60rem&nbsp;=&nbsp;960px
+90rem&nbsp;=&nbsp;1440px
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*.container&nbsp;{&nbsp;min-width:&nbsp;60rem;&nbsp;min-width:&nbsp;0;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;.force-height&nbsp;{&nbsp;min-height:&nbsp;100vh;&nbsp;}
+
+
+/*&nbsp;&nbsp;top&nbsp;navigation&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*nav&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow:&nbsp;hidden;
+&nbsp;&nbsp;background-color:&nbsp;#e2e2e2;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;nav&nbsp;h1&nbsp;&nbsp;{&nbsp;font-size:&nbsp;1.75rem;&nbsp;margin-bottom:&nbsp;.5rem;&nbsp;margin-top:&nbsp;0;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;nav&nbsp;ul&nbsp;{&nbsp;margin:&nbsp;0;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;nav&nbsp;ul&nbsp;li&nbsp;{&nbsp;font-size:&nbsp;1.75rem;&nbsp;margin:&nbsp;0&nbsp;0&nbsp;0&nbsp;1.25rem;&nbsp;}
+
+
+/*&nbsp;&nbsp;main&nbsp;page&nbsp;title&nbsp;after&nbsp;top&nbsp;navigation
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">.container</span><span style="color: rgb(0, 0, 0);">&nbsp;&gt;&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">line-height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.15</span><span style="color: rgb(0, 0, 0);">em</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">text-align</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">center</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;hero&nbsp;image
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">&nbsp;+&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">h2</span><span style="color: rgb(0, 0, 0);">&nbsp;+&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">block</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;default&nbsp;desktop&nbsp;section&nbsp;styles
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">em</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;section&nbsp;default&nbsp;12&nbsp;column&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">repeat</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">12</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0.625</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;.625%&nbsp;of&nbsp;16&nbsp;=&nbsp;10,&nbsp;0.625em&nbsp;=&nbsp;10px&nbsp;...&nbsp;&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd&nbsp;hd"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;fg&nbsp;fg&nbsp;fg&nbsp;dv&nbsp;dv&nbsp;dv&nbsp;dv&nbsp;dv&nbsp;dv&nbsp;dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hd</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">fg</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">dv</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;simple&nbsp;3&nbsp;column&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;hd&nbsp;hd"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hd</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">fg</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">dv</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">-0.6</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;3&nbsp;column&nbsp;grid&nbsp;with&nbsp;right&nbsp;hand&nbsp;image
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.right</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">20</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">)&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;hd&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;dv&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.right</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.right</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;wide&nbsp;right&nbsp;hand&nbsp;image&nbsp;spanning&nbsp;two&nbsp;columns
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.wide</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">10</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">)&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;fg&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;fg&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;intro
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hd</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">dv</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">,
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.intro</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;images-two
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f1&nbsp;f2"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;hd"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hd</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">)&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">dv</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">,
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-two</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;images-three
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f1&nbsp;f2&nbsp;f3"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;hd&nbsp;hd"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hd</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">)&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">)&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f3</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">dv</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">,
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;images-three-plus
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f1&nbsp;f2&nbsp;f3"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"d1&nbsp;d2&nbsp;d3"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">)&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">)&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f3</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">d1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">)&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">d2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(234, 51, 35);">:nth-of-type</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">)&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">d3</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">,
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.images-three-plus</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;full&nbsp;width
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">block</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f1"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"im"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">im</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f1</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">justify-self</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">center</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">block</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.full</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;two&nbsp;columns
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.two</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;hd"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;two&nbsp;columns&nbsp;right&nbsp;image
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.two-right</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">2.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"hd&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv&nbsp;fg"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;pull&nbsp;quote
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.pull</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.pull</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">.pull</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;out&nbsp;of&nbsp;background
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.colourbox</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">.orange</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background</span><span style="color: rgb(0, 0, 0);">:</span><span style="color: rgb(0, 153, 153);">#aaa</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;temp&nbsp;hack&nbsp;to&nbsp;fix&nbsp;background&nbsp;colour&nbsp;issue&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(4, 0, 204);">@media</span><span style="color: rgb(0, 0, 0);">&nbsp;(</span><span style="color: rgb(234, 51, 35);">max-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">990</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.half.orange</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">background</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transparent</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(234, 51, 35);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;!</span><span style="color: rgb(0, 0, 0);">important</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;half
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"all"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">all</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">22</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">)&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">)&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"im&nbsp;fc"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">im</span><span style="color: rgb(0, 0, 0);">;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">fc</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">img</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">block</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.half</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figcaption</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.25</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">margin-bottom</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;!</span><span style="color: rgb(0, 0, 0);">important</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">line-height</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.25</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;custom&nbsp;section&nbsp;about&nbsp;page
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.about</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">minmax</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">24</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">5</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">)&nbsp;</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">3</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"fg&nbsp;dv&nbsp;dv"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;section.video&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">repeat</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">4</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transparent</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"v1&nbsp;v1&nbsp;v1&nbsp;v1"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"t2&nbsp;t2&nbsp;t2&nbsp;t2"</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">v1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">t2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">background</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transparent</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">max-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">32</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 153, 153);">#777</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0);">section.video</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding-top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;home&nbsp;page&nbsp;auto&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"h1&nbsp;h1&nbsp;h1"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"h2&nbsp;h3&nbsp;h4"</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">2</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.one</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">h1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.two</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">h2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.three</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">section.home</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.four</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">h4</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;projects&nbsp;page&nbsp;auto&nbsp;grid
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="color: rgb(0, 0, 0);">section.projects</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f1&nbsp;f2"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"f3&nbsp;f4"</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.projects</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.one</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">.projects</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.two</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">.projects</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.three</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f3</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">.projects</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">figure.four</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">f4</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;project&nbsp;page&nbsp;reflection&nbsp;section
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="color: rgb(0, 0, 0);">section.reflection</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">grid</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-columns</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">fr</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-rows</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">auto</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-column-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1.5</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-row-gap</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">1</span><span style="color: rgb(0, 0, 0);">rem</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-template-areas</span><span style="color: rgb(0, 0, 0);">:
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"rh&nbsp;rh"</span><span style="color: rgb(0, 0, 0);">
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(255, 51, 149);">"d1&nbsp;d2"</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">section.reflection</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">h3</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">rh</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">section.reflection</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">d1</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+</span><span style="color: rgb(0, 0, 0);">section.reflection</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">div.two</span><span style="color: rgb(0, 0, 0);">&nbsp;&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">grid-area</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">d2</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+</span><span style="color: rgb(0, 0, 0);">section.reflection</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">div</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">p</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">block</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+
+
+}&nbsp;</span><span style="color: rgb(84, 84, 84);">/*&nbsp;end&nbsp;768px&nbsp;media&nbsp;query&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+
+
+</span><span style="color: rgb(84, 84, 84);">/*&nbsp;&nbsp;for&nbsp;big&nbsp;screens&nbsp;-&nbsp;currently&nbsp;just&nbsp;for&nbsp;testing
+---------------------------------------------------------------------------------------&nbsp;*/</span><span style="color: rgb(0, 0, 0);">
+</span><span style="color: rgb(4, 0, 204);">@media</span><span style="color: rgb(0, 0, 0);">&nbsp;(</span><span style="color: rgb(0, 0, 0);">min-width</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">18000</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">html</span><span style="color: rgb(0, 0, 0);">&nbsp;{&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">24</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;&nbsp;}
+}
+
+</span><span style="color: rgb(0, 0, 0);">.slideshow-container</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">position</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">relative</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">overflow</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">hidden</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.slides</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">display</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">flex</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">transition</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">transform</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0.5</span><span style="color: rgb(0, 0, 0);">s</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(0, 0, 0);">ease-in-out</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.slide</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">flex</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">&nbsp;</span><span style="color: rgb(50, 104, 153);">100</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.prev</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(0, 0, 0);">.next</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">position</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">absolute</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">top</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">50</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">transform</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">translateY</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">-50</span><span style="color: rgb(4, 0, 204);">%</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">cursor</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">pointer</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">padding</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">16</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">background-color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">rgba</span><span style="color: rgb(0, 0, 0);">(</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">,&nbsp;</span><span style="color: rgb(50, 104, 153);">0.5</span><span style="color: rgb(0, 0, 0);">);
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">color</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(0, 0, 0);">white</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">font-size</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">24</span><span style="color: rgb(0, 0, 0);">px</span><span style="color: rgb(0, 0, 0);">;
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">z-index</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">100</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.prev</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">left</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+}
+
+</span><span style="color: rgb(0, 0, 0);">.next</span><span style="color: rgb(0, 0, 0);">&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(234, 51, 35);">right</span><span style="color: rgb(0, 0, 0);">:&nbsp;</span><span style="color: rgb(50, 104, 153);">0</span><span style="color: rgb(0, 0, 0);">;
+}
+
+
+
+
+</span></code></pre></body>
+</html>
